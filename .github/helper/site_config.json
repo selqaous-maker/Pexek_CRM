@@ -1,0 +1,16 @@
+{
+    "db_host": "127.0.0.1",
+    "db_port": 3306,
+    "db_name": "test_frappe",
+    "db_password": "__CI_DB_PASSWORD__",
+    "auto_email_id": "test@example.com",
+    "mail_server": "smtp.example.com",
+    "mail_login": "test@example.com",
+    "mail_password": "__CI_MAIL_PASSWORD__",
+    "admin_password": "__CI_ADMIN_PASSWORD__",
+    "root_login": "__CI_ROOT_LOGIN__",
+    "root_password": "__CI_ROOT_PASSWORD__",
+    "host_name": "http://test_site:8000",
+    "install_apps": ["crm"],
+    "throttle_user_limit": 100
+}
